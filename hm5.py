@@ -44,13 +44,13 @@
 # 4. Дан список my_list. СОЗДАТЬ НОВЫЙ список new_list у которого первый элемент из my_list
 # стоит на последнем месте. Если my_list [1,2,3,4], то new_list [2,3,4,1]
 
-my_list = [1, 2, 3, 4]
-new_list = []
-
-for item in my_list[1::]:
-    new_list.append(item)
-new_list.append(my_list[0])
-print(new_list)
+# my_list = [1, 2, 3, 4]
+# new_list = []
+#
+# for item in my_list[1::]:
+#     new_list.append(item)
+# new_list.append(my_list[0])
+# print(new_list)
 
 # 5.Дан список my_list. В ЭТОМ списке первый элемент переставить на последнее место.
 # [1,2,3,4] -> [2,3,4,1]. Пересоздавать список нельзя! (используйте метод pop)
